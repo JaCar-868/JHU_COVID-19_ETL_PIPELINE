@@ -18,4 +18,5 @@ We aggregate across provinces/states to get a single total per country per day.
 Finally, we filter to a few example countries—swap or expand as you like.
 
 3. Load:
+
 We write the cleaned DataFrame into a local SQLite database named covid_etl_demo.db under the table covid_confirmed. You can swap in BigQuery, Redshift, or Snowflake by changing the write method.
