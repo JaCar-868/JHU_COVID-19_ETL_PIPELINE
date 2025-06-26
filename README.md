@@ -4,6 +4,7 @@ Pulling live COVID-19 case data from the Johns Hopkins GitHub repo, transforming
 Explanation of each step:
 
 1. Extract:
+
 We pull the JHU “confirmed cases” time-series CSV right from GitHub via pandas.read_csv(url).
 
 2. Transform:
